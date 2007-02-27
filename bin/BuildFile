@@ -1,6 +1,5 @@
 <use name=DetectorDescription/Parser>
 <use name=DetectorDescription/Core>
-<use name=DetectorDescription/CoreImpl>
 <use name=DetectorDescription/Base>
 <use name=DetectorDescription/ExprAlgo>
 <use name=DetectorDescription/Algorithm>
