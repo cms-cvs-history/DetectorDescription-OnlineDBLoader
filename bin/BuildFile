@@ -1,14 +1,55 @@
-<use name=DetectorDescription/Parser>
-<use name=DetectorDescription/Core>
-<use name=DetectorDescription/Base>
-<use name=DetectorDescription/ExprAlgo>
-<use name=DetectorDescription/Algorithm>
-# <use name=DetectorDescription/RegressionTest>
-
-<use name=Utilities/Timing>
-<use name=Utilities/General>
-
-<bin file=physicalparts_table.cpp></bin>
-
+<environment>
+  <use name=DetectorDescription/PersistentDDDObjects>
+  <use name=DetectorDescription/Parser>
+  <use name=DetectorDescription/Core>
+  <use name=Geometry/Records>
+  <use name=Foundation/SealUtil>
+  <use name=FWCore/Framework>
+  <use name=clhep>
+  <use name=CondCore/DBOutputService>
+  <library file=stubs/PhysicalPartsTree.cc name=PhysicalPartsTree>
+    <flags SEAL_PLUGIN_NAME="PhysicalPartsTree">
+  </library>
+</environment>
+<environment>
+  <use name=DetectorDescription/PersistentDDDObjects>
+  <use name=DetectorDescription/Parser>
+  <use name=DetectorDescription/Core>
+  <use name=Geometry/Records>
+  <use name=Foundation/SealUtil>
+  <use name=FWCore/Framework>
+  <use name=clhep>
+  <use name=CondCore/DBOutputService>
+  <library file=stubs/SolidsForOnline.cc name=SolidsForOnline>
+    <flags SEAL_PLUGIN_NAME="SolidsForOnline">
+  </library>
+</environment>
+<environment>
+  <use name=DetectorDescription/PersistentDDDObjects>
+  <use name=DetectorDescription/Parser>
+  <use name=DetectorDescription/Core>
+  <use name=Geometry/Records>
+  <use name=Foundation/SealUtil>
+  <use name=FWCore/Framework>
+  <use name=clhep>
+  <use name=CondCore/DBOutputService>
+  <library file=stubs/MaterialForOnline.cc name=MaterialForOnline>
+    <flags SEAL_PLUGIN_NAME="MaterialForOnline">
+  </library>
+</environment>
+<environment>
+  <use name=DetectorDescription/PersistentDDDObjects>
+  <use name=DetectorDescription/Parser>
+  <use name=DetectorDescription/Core>
+  <use name=Geometry/Records>
+  <use name=Foundation/SealUtil>
+  <use name=FWCore/Framework>
+  <use name=clhep>
+  <use name=CondCore/DBOutputService>
+  <library file=stubs/RotationForOnline.cc name=RotationForOnline>
+    <flags SEAL_PLUGIN_NAME="RotationForOnline">
+  </library>
+</environment>
+ 
  
 
