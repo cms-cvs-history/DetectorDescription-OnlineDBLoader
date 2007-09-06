@@ -8,7 +8,7 @@
   <use name=clhep>
   <use name=CondCore/DBOutputService>
   <library file=stubs/PhysicalPartsTree.cc name=PhysicalPartsTree>
-    <flags SEAL_PLUGIN_NAME="PhysicalPartsTree">
+    <flags EDM_PLUGIN=1>
   </library>
 </environment>
 <environment>
@@ -21,7 +21,7 @@
   <use name=clhep>
   <use name=CondCore/DBOutputService>
   <library file=stubs/SolidsForOnline.cc name=SolidsForOnline>
-    <flags SEAL_PLUGIN_NAME="SolidsForOnline">
+    <flags EDM_PLUGIN=1>
   </library>
 </environment>
 <environment>
@@ -34,7 +34,7 @@
   <use name=clhep>
   <use name=CondCore/DBOutputService>
   <library file=stubs/MaterialForOnline.cc name=MaterialForOnline>
-    <flags SEAL_PLUGIN_NAME="MaterialForOnline">
+    <flags EDM_PLUGIN=1>
   </library>
 </environment>
 <environment>
@@ -47,7 +47,7 @@
   <use name=clhep>
   <use name=CondCore/DBOutputService>
   <library file=stubs/RotationForOnline.cc name=RotationForOnline>
-    <flags SEAL_PLUGIN_NAME="RotationForOnline">
+    <flags EDM_PLUGIN=1>
   </library>
 </environment>
  
