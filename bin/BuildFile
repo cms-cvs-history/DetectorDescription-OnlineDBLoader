@@ -1,4 +1,12 @@
-<environment>
+  <use name=DetectorDescription/PersistentDDDObjects>
+  <use name=DetectorDescription/Parser>
+  <use name=DetectorDescription/Core>
+  <use name=Geometry/Records>
+  <use name=Foundation/SealUtil>
+  <use name=FWCore/Framework>
+  <use name=clhep>
+  <use name=CondCore/DBOutputService>
+<export>
   <use name=DetectorDescription/PersistentDDDObjects>
   <use name=DetectorDescription/Parser>
   <use name=DetectorDescription/Core>
@@ -10,8 +18,8 @@
   <library file=stubs/PhysicalPartsTree.cc name=PhysicalPartsTree>
     <flags EDM_PLUGIN=1>
   </library>
-</environment>
-<environment>
+</export>
+<export>
   <use name=DetectorDescription/PersistentDDDObjects>
   <use name=DetectorDescription/Parser>
   <use name=DetectorDescription/Core>
@@ -23,8 +31,8 @@
   <library file=stubs/SolidsForOnline.cc name=SolidsForOnline>
     <flags EDM_PLUGIN=1>
   </library>
-</environment>
-<environment>
+</export>
+<export>
   <use name=DetectorDescription/PersistentDDDObjects>
   <use name=DetectorDescription/Parser>
   <use name=DetectorDescription/Core>
@@ -36,8 +44,8 @@
   <library file=stubs/MaterialForOnline.cc name=MaterialForOnline>
     <flags EDM_PLUGIN=1>
   </library>
-</environment>
-<environment>
+</export>
+<export>
   <use name=DetectorDescription/PersistentDDDObjects>
   <use name=DetectorDescription/Parser>
   <use name=DetectorDescription/Core>
@@ -49,7 +57,7 @@
   <library file=stubs/RotationForOnline.cc name=RotationForOnline>
     <flags EDM_PLUGIN=1>
   </library>
-</environment>
+</export>
  
  
 
